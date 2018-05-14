@@ -63,7 +63,7 @@
         <!-- HTTP server support -->
         <!-- We cannot use the newest 9.x version because of issues when proxing to it from Apache HTTP Server -->
         <jetty.version>8.2.0.v20160908</jetty.version>
-        <scalatra.version>2.6.2</scalatra.version>
+        <scalatra.version>2.6.3</scalatra.version>
 
         <!-- Database connectivity -->
         <postgresql.version>9.4-1205-jdbc42</postgresql.version>
