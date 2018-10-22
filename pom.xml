@@ -55,7 +55,7 @@
         <commons-csv.version>1.1</commons-csv.version>
         <commons-daemon.version>1.0.15</commons-daemon.version>
         <commons-dbcp2.version>2.1.1</commons-dbcp2.version>
-        <commons-compress.version>1.15</commons-compress.version>
+        <commons-compress.version>1.18</commons-compress.version>
 
         <!-- ISO 8601 datetime -->
         <joda-time.version>2.7</joda-time.version>
@@ -76,6 +76,7 @@
         <zip4j.version>1.3.2</zip4j.version>
         <jgit.version>4.1.0.201509280440-r</jgit.version>
         <json4s.version>3.5.3</json4s.version>
+        <tika.version>1.18</tika.version>
 
         <!-- Unit testing -->
         <junit.version>4.12</junit.version>
@@ -88,7 +89,7 @@
         <scalacheck.version>1.14.0</scalacheck.version>
 
         <!-- LEGACY -->
-        <spring.version>4.0.2.RELEASE</spring.version>
+        <spring.version>5.1.1.RELEASE</spring.version>
         <yourmediashelf.version>0.7</yourmediashelf.version>
         <!--
             According to mvnrepository.com the eclipse branch of jetty is the "current" one.
@@ -315,6 +316,11 @@
                 <groupId>org.json4s</groupId>
                 <artifactId>json4s-ext_2.12</artifactId>
                 <version>${json4s.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.tika</groupId>
+                <artifactId>tika-core</artifactId>
+                <version>${tika.version}</version>
             </dependency>
 
             <!-- Unit testing -->
