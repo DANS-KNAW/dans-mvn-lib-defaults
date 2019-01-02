@@ -26,7 +26,7 @@
     </parent>
     <artifactId>dans-mvn-lib-defaults</artifactId>
     <name>DANS Maven Project Library Defaults</name>
-    <version>2.2.9</version>
+    <version>2.2.10-SNAPSHOT</version>
     <packaging>pom</packaging>
     <description>
         Defines the default configuration and version for libraries used in DANS projects.
@@ -448,8 +448,4 @@
 
         </dependencies>
     </dependencyManagement>
-
-  <scm>
-    <tag>v2.2.9</tag>
-  </scm>
 </project>
