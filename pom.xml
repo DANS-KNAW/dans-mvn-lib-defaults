@@ -21,7 +21,7 @@
     <parent>
         <groupId>nl.knaw.dans.shared</groupId>
         <artifactId>dans-mvn-plugin-defaults</artifactId>
-        <version>2.2.1</version>
+        <version>2.1.1-SNAPSHOT</version>
         <relativePath>../dans-mvn-plugin-defaults</relativePath>
     </parent>
     <artifactId>dans-mvn-lib-defaults</artifactId>
@@ -40,6 +40,7 @@
         <scala-arm.version>2.0</scala-arm.version>
         <dans-scala-lib.version>1.4.1</dans-scala-lib.version>
         <better-files.version>3.6.0</better-files.version>
+        <cats-core.version>1.5.0</cats-core.version>
 
         <!-- Logging -->
         <logback.version>1.2.3</logback.version>
@@ -89,6 +90,7 @@
         <scala-test.version>3.0.5</scala-test.version>
         <scalamock.version>4.1.0</scalamock.version>
         <scalacheck.version>1.14.0</scalacheck.version>
+        <cats-scalatest.version>2.4.0</cats-scalatest.version>
 
         <!-- LEGACY -->
         <spring.version>5.1.1.RELEASE</spring.version>
@@ -148,6 +150,11 @@
                 <groupId>com.github.pathikrit</groupId>
                 <artifactId>better-files_2.12</artifactId>
                 <version>${better-files.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.typelevel</groupId>
+                <artifactId>cats-core_2.12</artifactId>
+                <version>${cats-core.version}</version>
             </dependency>
 
             <!-- Logging -->
@@ -400,6 +407,12 @@
                 <groupId>org.scalatra</groupId>
                 <artifactId>scalatra-scalatest_2.12</artifactId>
                 <version>${scalatra.version}</version>
+                <scope>test</scope>
+            </dependency>
+            <dependency>
+                <groupId>com.ironcorelabs</groupId>
+                <artifactId>cats-scalatest_2.12</artifactId>
+                <version>${cats-scalatest.version}</version>
                 <scope>test</scope>
             </dependency>
 
