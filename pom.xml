@@ -26,7 +26,7 @@
     </parent>
     <artifactId>dans-mvn-lib-defaults</artifactId>
     <name>DANS Maven Project Library Defaults</name>
-    <version>2.2.10-SNAPSHOT</version>
+    <version>3.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <description>
         Defines the default configuration and version for libraries used in DANS projects.
@@ -64,8 +64,7 @@
         <joda-convert.version>1.6</joda-convert.version>
 
         <!-- HTTP server support -->
-        <!-- We cannot use the newest 9.x version because of issues when proxing to it from Apache HTTP Server -->
-        <jetty.version>8.2.0.v20160908</jetty.version>
+        <jetty.version>9.4.14.v20181114</jetty.version>
         <scalatra.version>2.6.3</scalatra.version>
 
         <!-- Database connectivity -->
