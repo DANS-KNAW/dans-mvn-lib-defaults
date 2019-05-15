@@ -64,7 +64,7 @@
         <joda-convert.version>1.6</joda-convert.version>
 
         <!-- HTTP server support -->
-        <jetty.version>9.4.14.v20181114</jetty.version>
+        <jetty.version>9.4.18.v20190429</jetty.version>
         <scalatra.version>2.6.3</scalatra.version>
 
         <!-- Database connectivity -->
